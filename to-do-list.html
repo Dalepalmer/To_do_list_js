@@ -18,19 +18,30 @@
             <label for="new-place">Add a task</label>
             <input type="text" class="form-control" id="new-task">
           </div>
-              <button type="submit" class="btn btn-success">Add a task</button>
-          </form>
-          <h2>Uncompleted Tasks:</h2>
-          <ul id="undone-tasks">
-          </ul>
+          <button type="submit" class="btn btn-success">Add a task</button>
+        </form>
+        <h2>Uncompleted Tasks:</h2>
+        <p>Click on a task to mark it as completed</p>
+        <ul id="undone-tasks">
+        </ul>
+      </div>
+      <div class="col-md-6">
+        <div id="show-undone-task">
+          <h2></h2>
+          <p><span class="task-name"></span></p>
         </div>
-        <div class="col-md-6">
-          <div id="show-undone-task">
-            <h2></h2>
-            <p>Task name: <span class="task-name"></span></p>
-          </div>
+        <h2>Completed Tasks:</h2>
+        <h3> Click on a completed task to delete it from your list</h3>
+        <ul id="done-tasks">
+        </ul>
+      </div>
+      <div class="col-md-6">
+        <div id="show-done-task">
+          <h2></h2>
+          <p>Completed Task Name: <span class="task-name"></span></p>
         </div>
       </div>
     </div>
-  </body>
+  </div>
+</body>
 </html>

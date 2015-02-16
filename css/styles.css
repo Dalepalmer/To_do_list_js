@@ -1,12 +1,22 @@
-#show-task {
+#show-undone-task {
   display: none;
 }
 
-.task {
+.undoneTask {
   cursor: pointer;
   color: #0088cc;
 }
 
-.task:hover {
+.undoneTask:hover {
   text-decoration: underline;
+}
+
+#show-done-task {
+  display: none;
+}
+
+.doneTask {
+  cursor: pointer;
+  color: #0088cc;
+  text-decoration: line-through;
 }
